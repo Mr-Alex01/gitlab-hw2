@@ -1,0 +1,32 @@
+stages:
+  - test
+  - build
+  - deploy
+
+test:
+  stage: test
+  tags:
+    - docker
+  image: golang:1.17
+  script:
+    - go test .
+
+build:
+  stage: build
+  image: docker:latest
+  services:
+    - docker:dind
+  script:
+    - docker build -t my-app .
+  only:
+    - main
+
+deploy:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - echo "Deploying application..."
+    - echo "Application deployed successfully!"
+  when: manual
+  only:
+    - main
