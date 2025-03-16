@@ -89,7 +89,26 @@
 ```
 
 `При необходимости прикрепитe сюда скриншоты
-![Название скриншота 2](ссылка на скриншот 2)`
+
+`Результаты отработки Pipelines:`
+
+![7](https://github.com/Mr-Alex01/gitlab-hw2/blob/main/img/7.jpg)
+
+`Результат собранных сборок:`
+
+![8](https://github.com/Mr-Alex01/gitlab-hw2/blob/main/img/8.jpg)
+
+`Результат вывода в консоли stage Test:`
+
+![9](https://github.com/Mr-Alex01/gitlab-hw2/blob/main/img/9.jpg)
+
+`Результат вывода в консоли stage Build:`
+
+![10](https://github.com/Mr-Alex01/gitlab-hw2/blob/main/img/10.jpg)
+
+`Результат вывода в консоли stage Deploy:`
+
+![11](https://github.com/Mr-Alex01/gitlab-hw2/blob/main/img/11.jpg)
 
 
 ---
